@@ -128,9 +128,9 @@ Use this profile when the workload needs more than one concurrent request.
 
 | Item | Value |
 |---|---|
-| Checkpoint | `nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16` @ <revision> |
-| vLLM-MUSA | v0.28.0 release image, v0.28.0-dev @ <commit> |
-| MUSA driver | <driver version> |
+| Checkpoint | `nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16` (HF) @ a9904d24bcc1d289a1950fa9d2b978c47cf903b9 |
+| vLLM-MUSA | vllm:v0.28.0-ph1-5.2.0-torch2.11.0.post2-latest (vLLM 0.28.0 @ 2cf0a69, vllm-musa 0.1.28) |
+| MUSA driver | 5.2.0 |
 | Hardware | 2x S5000 |
 | Served request | 4K-input/1K-output, up to 98 concurrent |
 

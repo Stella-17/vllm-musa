@@ -22,9 +22,9 @@ BF16 dense-model recipe for two S5000 GPUs.
 
 | Item | Value |
 |---|---|
-| Checkpoint | `Qwen/Qwen3.8-27B` @ <revision> |
-| vLLM-MUSA | v0.28.0 release image, v0.28.0-dev @ <commit> |
-| MUSA driver | <driver version> |
+| Checkpoint | `Qwen/Qwen3.8-27B` (ModelScope) @ e823e888ae179eb3be02c1a48899c4f828371376 |
+| vLLM-MUSA | vllm:v0.28.0-ph1-5.2.0-torch2.11.0.post2-latest (vLLM 0.28.0 @ 2cf0a69, vllm-musa 0.1.28) |
+| MUSA driver | 5.2.0 |
 | Hardware | 2x S5000 |
 | Served request | 4K-input/1K-output, up to 128 concurrent |
 

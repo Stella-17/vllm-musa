@@ -27,9 +27,9 @@ CUDA graphs.
 
 | Item | Value |
 |---|---|
-| Checkpoint | `Qwen/Qwen3-Next-80B-A3B-Instruct` @ <revision> |
-| vLLM-MUSA | v0.28.0 release image, v0.28.0-dev @ <commit> |
-| MUSA driver | <driver version> |
+| Checkpoint | `Qwen/Qwen3-Next-80B-A3B-Instruct` (ModelScope) @ 02ac308d71328bf7c19dc77a3db266903894f84d |
+| vLLM-MUSA | vllm:v0.28.0-ph1-5.2.0-torch2.11.0.post2-latest (vLLM 0.28.0 @ 2cf0a69, vllm-musa 0.1.28) |
+| MUSA driver | 5.2.0 |
 | Hardware | 8x S5000 |
 | Served request | 4K-input/1K-output, up to 128 concurrent |
 
