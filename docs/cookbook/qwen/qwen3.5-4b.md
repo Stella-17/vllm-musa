@@ -23,11 +23,11 @@ BF16 small-model recipe for a single S5000 GPU with MTP1 speculative decoding.
 
 | Item | Value |
 |---|---|
-| Checkpoint | `Qwen/Qwen3.5-4B` (ModelScope) @ ed182e32090db791077e12e0f58d22f3daafa173 |
-| vLLM-MUSA | vllm:v0.28.0-ph1-5.2.0-torch2.11.0.post2-latest (vLLM 0.28.0 @ 2cf0a69, vllm-musa 0.1.28) |
+| Checkpoint | [`Qwen/Qwen3.5-4B`](https://modelscope.cn/models/Qwen/Qwen3.5-4B) (ModelScope) @ ed182e32090db791077e12e0f58d22f3daafa173 |
+| vLLM-MUSA | vLLM 0.28.0 @ 2cf0a69, vllm-musa 0.1.28 |
 | MUSA driver | 5.2.0 |
 | Hardware | 1x S5000 |
-| Served request | 4K-input/1K-output, up to 128 concurrent |
+| Served request | 2K/1K, 3K/1K, 3.5K/1K, 4K/1K, 4K/1.5K, 500 prompts each |
 
 ## Launching the server
 

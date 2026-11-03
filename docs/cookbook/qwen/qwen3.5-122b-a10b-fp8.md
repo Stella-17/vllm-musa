@@ -26,11 +26,11 @@ multimodal deployments.
 
 | Item | Value |
 |---|---|
-| Checkpoint | `Qwen/Qwen3.5-122B-A10B-FP8` (ModelScope) @ cb193be84ec5f1ba121e7c558c6ee6885c03cffc |
-| vLLM-MUSA | vllm:v0.28.0-ph1-5.2.0-torch2.11.0.post2-latest (vLLM 0.28.0 @ 2cf0a69, vllm-musa 0.1.28) |
+| Checkpoint | [`Qwen/Qwen3.5-122B-A10B-FP8`](https://modelscope.cn/models/Qwen/Qwen3.5-122B-A10B-FP8) (ModelScope) @ cb193be84ec5f1ba121e7c558c6ee6885c03cffc |
+| vLLM-MUSA | vLLM 0.28.0 @ 2cf0a69, vllm-musa 0.1.28 |
 | MUSA driver | 5.2.0 |
 | Hardware | 8x S5000 |
-| Served request | 4K-input/1K-output, up to 128 concurrent |
+| Served request | 2K/1K, 3K/1K, 3.5K/1K, 4K/1K, 4K/1.5K, 500 prompts each |
 
 ## Text-only profile
 
