@@ -55,9 +55,6 @@ vllm serve /models/Qwen3.8-27B \
 
 ## Configuration notes
 
-- This checkpoint serves the same 27B dense workload class as the other 27B
-  dense recipes in the family, so the validated knobs coincide; every value
-  here comes from Qwen3.8-27B's own validation runs.
 - MTP3 drafts three tokens per step through the `qwen3_5_mtp` backend
   method; keep the method name exactly as written.
 - The profile compiles in `NONE` mode and captures decode-only CUDA graphs

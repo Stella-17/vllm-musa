@@ -57,6 +57,16 @@ export VLLM_WORKER_MULTIPROC_METHOD=spawn
 export MODEL_PATH=/models/DeepSeek-V4-Flash-0731-FP8-mt
 ```
 
+## Validation
+
+| Item | Value |
+|---|---|
+| Checkpoint | [`deepseek-ai/DeepSeek-V4-Flash-0731`](https://modelscope.cn/models/deepseek-ai/DeepSeek-V4-Flash-0731) (ModelScope) @ f981a343464c25f82b901e5882716b3b2fa514de |
+| vLLM-MUSA | vLLM 0.28.0 @ 2cf0a69, vllm-musa 0.1.28 |
+| MUSA driver | 5.2.0 |
+| Hardware | 8x S5000 per node |
+| Served request | 2K/1K, 3K/1K, 3.5K/1K, 4K/1K, 4K/1.5K, 500 prompts each |
+
 ## Single node
 
 ```bash

@@ -29,7 +29,7 @@ BF16 vision-language OCR recipe for a single S5000 GPU.
 | vLLM-MUSA | vLLM 0.28.0 @ 2cf0a69, vllm-musa 0.1.28 |
 | MUSA driver | 5.2.0 |
 | Hardware | 1x S5000 |
-| Served request | 2K/1K, 3K/1K, 3.5K/1K, 4K/1K, 4K/1.5K, 500 prompts each |
+| Served request | OmniBench |
 
 ## Launching the server
 

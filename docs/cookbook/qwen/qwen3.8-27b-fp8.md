@@ -55,8 +55,6 @@ vllm serve /models/Qwen3.8-27B-FP8 \
 
 ## Configuration notes
 
-- This FP8 checkpoint was validated independently; see the BF16 page for the
-  architecture note and the shared 27B dense workload rationale.
 - The memory-utilization target drops to 0.80 for the FP8 checkpoint.
 - MTP3 uses the FlashAttention backend for draft attention.
 - Graph capture sizes account for the additional draft tokens.

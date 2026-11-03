@@ -22,7 +22,7 @@ page that matches both the model version and weight precision.
 | Qwen3.5-4B | BF16 | MTP1 | [Open recipe](qwen3.5-4b.md) |
 | Qwen3.5-9B | BF16 | MTP1 | [Open recipe](qwen3.5-9b.md) |
 | Qwen3.5-27B | BF16 | MTP1 | [Open recipe](qwen3.5-27b-bf16.md) |
-| Qwen3.5-27B | FP8 | Off | [Open recipe](qwen3.5-27b-fp8.md) |
+| Qwen3.5-27B | FP8 | MTP1 | [Open recipe](qwen3.5-27b-fp8.md) |
 | Qwen3.6-27B | BF16 | MTP3 | [Open recipe](qwen3.6-27b-bf16.md) |
 | Qwen3.6-27B | FP8 | MTP3 | [Open recipe](qwen3.6-27b-fp8.md) |
 | Qwen3.8-27B | BF16 | MTP3 | [Open recipe](qwen3.8-27b-bf16.md) |

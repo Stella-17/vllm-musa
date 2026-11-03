@@ -24,7 +24,17 @@ multimodal deployments.
 
 ## Text-only profile
 
-### Launching the server
+### Validation
+
+| Item | Value |
+|---|---|
+| Checkpoint | [`Qwen/Qwen3.5-122B-A10B`](https://modelscope.cn/models/Qwen/Qwen3.5-122B-A10B) (ModelScope) @ 6b5f73ef7aa823491e24d9c8ddee7e7ad0082377 |
+| vLLM-MUSA | vLLM 0.28.0 @ 2cf0a69, vllm-musa 0.1.28 |
+| MUSA driver | 5.2.0 |
+| Hardware | 8x S5000 |
+| Served request | 2K/1K, 3K/1K, 3.5K/1K, 4K/1K, 4K/1.5K, 500 prompts each |
+
+## Launching the server
 
 ```bash
 export VLLM_PLUGINS=musa,musa_custom_ops

@@ -45,6 +45,16 @@ deployment profiles:
 | CUDAGraph mode | `FULL_AND_PIECEWISE` |
 | Prefix caching | Off |
 
+### Validation
+
+| Item | Value |
+|---|---|
+| Checkpoint | [`nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16`](https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16) (HF) @ a9904d24bcc1d289a1950fa9d2b978c47cf903b9 |
+| vLLM-MUSA | vLLM 0.28.0 @ 2cf0a69, vllm-musa 0.1.28 |
+| MUSA driver | 5.2.0 |
+| Hardware | 1x S5000 |
+| Served request | 4K-input/1K-output, one request at a time |
+
 ### Launching the server
 
 ```bash
