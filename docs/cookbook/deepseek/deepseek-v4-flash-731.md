@@ -61,7 +61,7 @@ export MODEL_PATH=/models/DeepSeek-V4-Flash-0731-FP8-mt
 
 | Item | Value |
 |---|---|
-| Checkpoint | [`deepseek-ai/DeepSeek-V4-Flash-0731`](https://modelscope.cn/models/deepseek-ai/DeepSeek-V4-Flash-0731) (ModelScope) @ f981a343464c25f82b901e5882716b3b2fa514de |
+| Checkpoint | [`MooreThreads/DeepSeek-V4-Flash-0731-FP8-mt`](https://modelscope.cn/models/MooreThreads/DeepSeek-V4-Flash-0731-FP8-mt) (ModelScope) @ 28667fb3a4acf15baf1084051ac157b8f234ba7a |
 | vLLM-MUSA | vLLM 0.28.0 @ 2cf0a69, vllm-musa 0.1.28 |
 | MUSA driver | 5.2.0 |
 | Hardware | 8x S5000 per node |
@@ -202,7 +202,6 @@ vllm serve "${MODEL_PATH}" \
   --speculative-config '{"method":"dspark","num_speculative_tokens":4}' \
   --compilation-config '{"mode":"NONE","cudagraph_mode":"NONE"}' \
   --async-scheduling \
-  --disable-log-stats \
   --hf-overrides '{"expert_dtype":"fp8"}' \
   --kv-transfer-config '{"kv_connector":"MultiConnector","kv_role":"kv_producer","kv_connector_extra_config":{"connectors":[{"kv_connector":"MooncakeConnector","kv_role":"kv_producer"},{"kv_connector":"MooncakeStoreConnector","kv_role":"kv_both"}]}}'
 ```
